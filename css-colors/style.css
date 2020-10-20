@@ -1,3 +1,13 @@
+body{
+    background-color: lightblue;
+}
+h1 {
+    background-color: blue;
+}
+
+p {
+    background-color: tomato
+}
 #tomato{
     color:tomato;
     text-align: center;
@@ -29,4 +39,5 @@
 #lightgray{
     color: lightgray;
     text-align: center;
+    background-color: aliceblue;
 }
