@@ -1,11 +1,7 @@
-.title{
+h2 {
     color: red;
 }
 
-.subtitle{
-    color:blue;
+.about-me{
+    color:blue
 }
-#contact-us{
-    color: green;
-}
-
