@@ -1,0 +1,7 @@
+.container{
+    margin: 10px;
+    border-width: 10px 20px;
+    border-style: solid dotted dashed solid;
+    border-color: red black yellow blue;
+    border-radius: 0.5rem;
+}
