@@ -1,0 +1,10 @@
+.container{
+    width: 20rem;
+    height: 20rem;
+    background: red;
+    /* 
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 10rem; */
+    padding: 10rem 15rem;
+}
