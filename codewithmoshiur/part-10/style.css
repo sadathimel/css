@@ -1,13 +1,17 @@
-body{
-    background: lightgray;
+body {
+  background: lightgray;
 }
-h2{
-    font-family: agency fb;
+h2 {
+  /* font-family: agency fb;
     text-transform: capitalize;
     font-size: 2rem;
     font-style: italic;
-    font-weight: 700;
-} 
-p{
-    font-variant: small-caps;
+    font-weight: 700; */
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+p {
+  /* font-variant: small-caps; */
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
 }
