@@ -1,0 +1,13 @@
+body{
+    background: lightgray;
+}
+h2{
+    font-family: agency fb;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 700;
+} 
+p{
+    font-variant: small-caps;
+}
