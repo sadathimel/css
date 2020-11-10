@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.demo {
+  width: 300px;
+  height: 100px;
+  background: #000;
+  color: #fff;
+
+  padding: 50px;
+  border: 10px solid #f00;
+ 
+}
+
+.demo1 {
+  width: 300px;
+  height: 100px;
+  background: #000;
+  color: #fff;
+
+  padding: 50px;
+  border: 10px solid #f00;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.outer{
+ width: 300px;
+ height: 300px;
+ background: #ddd;
+ font-size: 20px;
+
+}
+.inner{
+    width: 80%;
+    height: 50%;
+    background: #fa0;
+    box-sizing: border-box;
+    padding: 10%;
+    border: 10px solid #000;
+    margin: 0 auto;
+}
