@@ -1,0 +1,32 @@
+.box{
+  width: 100px;
+  height: 100px;
+  background: #000;
+  position: relative;
+  left: 100px;
+}
+
+.box::before{
+  content: "";
+  display: block;
+  width:100px;
+  height: 100px;
+  background: green;
+  position: absolute;
+  left: -100px;
+}
+.box::after{
+  content: "";
+  width:100px;
+  height: 100px;
+  background:red;
+  display:block;
+  position: absolute;
+  left: 100px;
+}
+h1{
+  background: red;
+  display: inline;
+  height: 30px;
+  width: 30px;
+}
