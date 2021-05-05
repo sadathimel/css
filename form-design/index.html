@@ -33,11 +33,11 @@
                 <div><label for=""></label></div>
                 <div class="form-check form-check-inline">
                    <label class="form-check-label" for="inlineCheckbox1">Male</label>
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <input class="form-check-input" name="gender" type="radio" id="inlineCheckbox1" value="option1">
                 </div>
                 <div class="form-check form-check-inline">
                     <label class="form-check-label" for="inlineCheckbox2">Female</label>
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <input class="form-check-input" name="gender" type="radio" id="inlineCheckbox2" value="option2">
                 </div>
             </div>
             
@@ -174,15 +174,15 @@
                 <label for="validationCustomUsername" class="form-label">Current Marital Status </label>
                 <div class="form-check form-check-inline">
                    <label class="form-check-label" for="inlineCheckbox1">Single</label>
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <input class="form-check-input" type="radio" name="married" id="inlineCheckbox1" value="option1">
                 </div>
                 <div class="form-check form-check-inline">
                     <label class="form-check-label" for="inlineCheckbox2">Divorced</label>
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <input class="form-check-input" type="radio" name="married" id="inlineCheckbox2" value="option2">
                 </div>
                 <div class="form-check form-check-inline">
                     <label class="form-check-label" for="inlineCheckbox2">Widowed</label>
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <input class="form-check-input" type="radio" name="married" id="inlineCheckbox2" value="option2">
                 </div>
             </div>
 
@@ -190,11 +190,11 @@
                 <label for="validationCustomUsername" class="form-label">Do you have children? </label>                    
                 <div class="form-check form-check-inline col-md-2">
                     <label class="form-check-label" for="inlineCheckbox1">Yes</label>
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <input class="form-check-input" type="radio" name="child" id="inlineCheckbox1" value="option1">
                 </div>
                 <div class="form-check form-check-inline col-md-2">
                     <label class="form-check-label" for="inlineCheckbox2">No</label>
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <input class="form-check-input" type="radio" name="child" id="inlineCheckbox2" value="option2">
                 </div>
                 <div class="col-md-3">
                     <label for="validationCustom05" class="form-label">How many?</label>
@@ -283,23 +283,61 @@
             </div>
 
             <div class="row">
-                <label for="validationCustomUsername" class="form-label">Academic background </label>
+                <label for="validationCustomUsername" class="form-label">Professional background</label>
+                <div class="row">
+                    <label for="validationCustomUsername" class="form-label">Are you currently employed? </label>
+                    <div class="col-md-2"></div>                    
+                <div class="form-check form-check-inline col-md-2">
+                    <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+                    <input class="form-check-input" type="radio" name="employe" id="inlineCheckbox1" value="option1">
+                </div>
+                <div class="form-check form-check-inline col-md-2">
+                    <label class="form-check-label" for="inlineCheckbox2">No</label>
+                    <input class="form-check-input" type="radio" name="employe" id="inlineCheckbox2" value="option2">
+                </div>
+                </div>
+
+            
                <div class="row">
-                    <div class="col-md-6">
-                        <label for="validationCustom05" class="form-label">High School</label>
+                   <label for="validationCustomUsername" class="form-label">If yes, where do you work? </label>
+                   <div class="col-md-2"></div>
+                    <div class="col-md-5">
+                        <label for="validationCustom05" class="form-label">Position</label>
                         <input type="text" class="form-control" id="validationCustom05" required>
                         <div class="invalid-feedback">
                         </div>
                     </div>
-                <div class="col-md-4">
-                    <label for="validationCustom05" class="form-label">Year?</label>
-                    <input type="text" class="form-control" id="validationCustom05" required>
-                    <div class="invalid-feedback">
+                    <div class="col-md-3">
+                        <label for="validationCustom05" class="form-label">Income?</label>
+                        <input type="text" class="form-control" id="validationCustom05" required>
+                        <div class="invalid-feedback">
+                        </div>
                     </div>
-                </div>
                </div>
             </div>
 
+            <div class="row">
+                <div class="row">
+                <label for="validationCustomUsername" class="form-label">Immigration status </label>
+                <div class="row">
+                    <div class="col-md-2"></div>                    
+                    <div class="form-check form-check-inline col-md-2">
+                        <label class="form-check-label" for="inlineCheckbox1">US Citizen</label>
+                        <input class="form-check-input" type="radio" name="citizen" id="inlineCheckbox1" value="option1">
+                    </div>
+                    <div class="form-check form-check-inline col-md-2">
+                        <label class="form-check-label" for="inlineCheckbox2">Permanent Resident</label>
+                        <input class="form-check-input" type="radio" name="citizen" id="inlineCheckbox2" value="option2">
+                    </div>
+                    <div class="form-check form-check-inline col-md-2">
+                        <label class="form-check-label" for="inlineCheckbox2">Other (please specify)</label>
+                        <input class="form-check-input" type="radio" name="citizen" id="inlineCheckbox2" value="option2">
+                        <input type="text" class="form-control" id="validationCustom05" required>
+                    </div>
+                </div>
+            </div>
+
+            </div>
 
 
 
