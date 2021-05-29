@@ -88,3 +88,6 @@ header ul li a{
     width: 600px;
     padding-right: 50px;
 }
+.content .imgBox img{
+    max-width: 340px;
+}
