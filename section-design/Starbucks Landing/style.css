@@ -81,3 +81,10 @@ header ul li a{
     color: #fff;
     letter-spacing: 1px;
 }
+.content .imgBox {
+    display: flex;
+    margin-top: 50px;
+    justify-content: flex-end;
+    width: 600px;
+    padding-right: 50px;
+}
