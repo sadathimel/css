@@ -21,8 +21,33 @@
 		<img src="moon.png" id="moon">
 		<img src="mountains_behind.png" id="mountains_behind">
 		<h2 id="text">Moon Light</h2>
-		<a href="#" id="btn">Explore</a>
+		<a href="#sec" id="btn">Explore</a>
 		<img src="mountains_front.png" id="mountains_front">
 	</section>
+	<div class="sec" id="sec">
+		<h2>Parallax Scrolling Effects</h2>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, ut praesentium. Illo a minima laboriosam. Dolorum aut, esse architecto quas veniam dolore sed odit rem soluta culpa saepe, deleniti quae est, ipsum, obcaecati dolores. Esse iure ipsum qui fugit quidem reprehenderit odit nemo deserunt quasi aperiam delectus quisquam, porro, repellendus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla enim inventore tenetur laboriosam ea ipsum quaerat ipsam ut. Sapiente, consectetur? <br> <br> Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Quia corrupti architecto minima doloremque eaque sit harum illum ipsa numquam fuga expedita deleniti quae repudiandae sequi, provident rem dicta eos quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum est nulla natus nostrum, mollitia expedita? Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Accusantium, cum. <br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum optio iure non voluptatibus, cupiditate amet, odit, inventore fugiat debitis impedit labore. Esse consequuntur quos, quidem sit autem, rem expedita vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cupiditate!</p>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, ut praesentium. Illo a minima laboriosam. Dolorum aut, esse architecto quas veniam dolore sed odit rem soluta culpa saepe, deleniti quae est, ipsum, obcaecati dolores. Esse iure ipsum qui fugit quidem reprehenderit odit nemo deserunt quasi aperiam delectus quisquam, porro, repellendus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla enim inventore tenetur laboriosam ea ipsum quaerat ipsam ut. Sapiente, consectetur? <br> <br> Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Quia corrupti architecto minima doloremque eaque sit harum illum ipsa numquam fuga expedita deleniti quae repudiandae sequi, provident rem dicta eos quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum est nulla natus nostrum, mollitia expedita? Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Accusantium, cum. <br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum optio iure non voluptatibus, cupiditate amet, odit, inventore fugiat debitis impedit labore. Esse consequuntur quos, quidem sit autem, rem expedita vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cupiditate!</p>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, ut praesentium. Illo a minima laboriosam. Dolorum aut, esse architecto quas veniam dolore sed odit rem soluta culpa saepe, deleniti quae est, ipsum, obcaecati dolores. Esse iure ipsum qui fugit quidem reprehenderit odit nemo deserunt quasi aperiam delectus quisquam, porro, repellendus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla enim inventore tenetur laboriosam ea ipsum quaerat ipsam ut. Sapiente, consectetur? <br> <br> Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Quia corrupti architecto minima doloremque eaque sit harum illum ipsa numquam fuga expedita deleniti quae repudiandae sequi, provident rem dicta eos quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum est nulla natus nostrum, mollitia expedita? Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Accusantium, cum. <br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum optio iure non voluptatibus, cupiditate amet, odit, inventore fugiat debitis impedit labore. Esse consequuntur quos, quidem sit autem, rem expedita vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cupiditate!</p>
+	</div>
+
+
+	<script type="text/javascript">
+		let srars = document.getElementById('stars');
+		let moon = document.getElementById('moon');
+		let mountains_behind = document.getElementById('mountains_behind');
+		let text = document.getElementById('text');
+		let btn = document.getElementById('btn');
+		let mountains_front = document.getElementById('mountains_front');
+
+		window.addEventListener('scroll', function() {
+			let value = window.scrollY;
+			stars.style.left = value * 0.25 + 'px';
+			moon.style.top = value * 1.05 + 'px';
+			mountains_behind.style.top = value * .5 + 'px';
+			// text.style.top = value * 0 + 'px';
+			// text.style.top = value * 0 + 'px';
+		})
+	</script>
 </body>
 </html>
